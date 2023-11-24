@@ -4,6 +4,14 @@ const div = 23
 const max = 99999999
 const min = 0
 
+document.addEventListener("DOMContentLoaded", function() {
+    const inputRut = document.querySelector('.input1')
+    inputRut.addEventListener("input", function(e) {
+        //e.target.value +='2'
+        console.log(e.target.value);
+    });
+})
+
 
 var dni_Ingresado = 19537900
 var letra_Ingresada = "K"
